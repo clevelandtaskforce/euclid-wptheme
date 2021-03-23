@@ -1,0 +1,46 @@
+{
+  "name": "clevelandtaskforce/euclid.wptheme",
+  "type": "wordpress-theme",
+  "license": "MIT",
+  "description": "Euclid WordPress theme for the ATGC website.",
+  "homepage": "https://clevelandtaskforce.org",
+  "authors": [
+    {
+      "name": "Cleveland Taskforce Technology Team",
+      "email": "technology@clevelandtaskforce.org",
+      "homepage": "https://clevelandtaskforce.org/technology",
+      "role": "Developer"
+    },
+    {
+      "name": "Brazilliance",
+      "email": "hello@brazilliance.co",
+      "homepage": "https://brazilliance.co",
+      "role": "Developer"
+    }
+  ],
+  "keywords": ["wordpress"],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "composer/installers": "~1.9",
+    "illuminate/support": "5.6.*",
+    "roots/sage-lib": "~9.0.9",
+    "soberwp/controller": "~2.1.0",
+    "clevelandtaskforce/euclid.avery.wptheme": "1.0.3"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^2.8.0",
+    "roots/sage-installer": "~1.6"
+  },
+  "minimum-stability": "dev",
+  "scripts": {
+    "test": ["phpcs"],
+    "post-create-project-cmd": [
+      "Roots\\Sage\\Installer\\ComposerScript::postCreateProject"
+    ]
+  }
+}
