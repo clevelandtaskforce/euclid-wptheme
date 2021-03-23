@@ -25,7 +25,7 @@
       "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
     },
     {
-      "type" : "git",
+      "type" : "vcs",
       "url" :  "git@github.com:clevelandtaskforce/euclid.avery.wptheme.git"
     }
   ],
