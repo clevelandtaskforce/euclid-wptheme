@@ -6,6 +6,12 @@
   "homepage": "https://clevelandtaskforce.org",
   "authors": [
     {
+      "name": "Cleveland Taskforce Technology Team",
+      "email": "technology@clevelandtaskforce.org",
+      "homepage": "https://clevelandtaskforce.org/technology",
+      "role": "Developer"
+    },
+    {
       "name": "Brazilliance",
       "email": "hello@brazilliance.co",
       "homepage": "https://brazilliance.co",
