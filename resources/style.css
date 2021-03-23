@@ -1,12 +1,14 @@
 /*
-Theme Name:         Sage Starter Theme
-Theme URI:          https://roots.io/sage/
-Description:        Sage is a WordPress starter theme.
-Version:            9.0.10
-Author:             Roots
-Author URI:         https://roots.io/
-Text Domain:        sage
-
+Theme Name:         Euclid
+Theme URI:          https://github.com/clevelandtaskforce/euclid.wptheme
+Description:        Euclid is the new face of the AIDS Taskforce of Greater Cleveland. It's name represents a double-entendre of the organization's current and historical homes along Cleveland's Euclid Corridor as well as an homage to Euclid, the father of geometry and the underlying mathematics that serve as the foundation for this new, cleaner look for the ATGC.
+Version:            0.0.6
+Author:             Cleveland Taskforce Tech Team
+Author URI:         https://clevelandtaskforce.org/tech
+Text Domain:        smpl
+Template:           euclid.avery.wptheme
 License:            MIT License
 License URI:        http://opensource.org/licenses/MIT
 */
+
+@import url(../../euclid.avery.wptheme/style.css);
