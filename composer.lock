@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b15ec447a160542114f0fe699bf69692",
+    "content-hash": "e751dd6e6d813825791c3da32e10505f",
     "packages": [
         {
             "name": "brain/hierarchy",
@@ -73,6 +73,12 @@
                 "url": "git@github.com:clevelandtaskforce/euclid.avery.wptheme.git",
                 "reference": "5cc1efe7de14edfe9fb46102f6837b9e985ba31a"
             },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clevelandtaskforce/euclid.avery.wptheme/zipball/5cc1efe7de14edfe9fb46102f6837b9e985ba31a",
+                "reference": "5cc1efe7de14edfe9fb46102f6837b9e985ba31a",
+                "shasum": ""
+            },
             "type": "wordpress-theme",
             "license": [
                 "proprietary"
@@ -86,6 +92,10 @@
                 }
             ],
             "description": "A WP Packagist compatible version of the SimpleThemes Avery theme.",
+            "support": {
+                "source": "https://github.com/clevelandtaskforce/euclid.avery.wptheme/tree/1.0.3",
+                "issues": "https://github.com/clevelandtaskforce/euclid.avery.wptheme/issues"
+            },
             "time": "2021-03-22T19:22:36+00:00"
         },
         {
